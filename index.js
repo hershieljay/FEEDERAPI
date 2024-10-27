@@ -3,7 +3,7 @@ const { GoogleAuth } = require('google-auth-library');
 const fs = require('fs');
 
 // Load the service account key JSON file
-const serviceAccountPath = './new.json'; // Ensure this filename is correct
+const serviceAccountPath = './news.json'; // Ensure this filename is correct
 
 // Create an Express application
 const app = express();
